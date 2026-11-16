@@ -14,6 +14,7 @@ export default defineConfig({
       '@app/utils': path.resolve(rootDir, '../../packages/utils/src'),
       '@app/ui': path.resolve(rootDir, '../../packages/ui/src'),
     },
+    dedupe: ['react', 'react-dom', '@radix-ui/react-tabs', '@radix-ui/react-dialog'],
   },
   server: {
     port: 5173,
