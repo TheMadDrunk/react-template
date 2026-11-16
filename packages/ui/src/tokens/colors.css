@@ -1,0 +1,36 @@
+@theme {
+  --color-brand: #d30505;
+  --color-brand-green: #7bae7f;
+  --color-brand-yellow: #fcab10;
+  --color-primary: #d30505;
+  --color-primary-container: #d30505;
+  --color-primary-foreground: #ffffff;
+  --color-on-primary: #ffffff;
+  --color-background: #f9f9f9;
+  --color-surface: #f9f9f9;
+  --color-on-background: #1a1c1c;
+  --color-on-surface: #000000;
+  --color-on-surface-variant: #5e3f3a;
+  --color-surface-container: #eeeeee;
+  --color-surface-variant: #f5f3f2;
+  --color-outline: #936e69;
+  --color-outline-variant: #e8bdb6;
+  --color-outline-strong: #151311;
+  --color-muted: #f3f3f4;
+  --color-muted-foreground: #6b7280;
+  --color-border: #e5e7eb;
+  --color-destructive: #ba1a1a;
+  --color-destructive-foreground: #991b1b;
+  --color-destructive-muted: #fef2f2;
+  --color-destructive-border: #fca5a5;
+  --color-error: #ba1a1a;
+  --color-overlay: rgb(0 0 0 / 0.4);
+  --color-on-media: #ffffff;
+
+  --font-headline: 'Anton', sans-serif;
+  --font-title: 'Chivo', sans-serif;
+  --font-body: 'Chivo', sans-serif;
+  --font-label: 'Space Grotesk', sans-serif;
+
+  --spacing-container-margin: 20px;
+}

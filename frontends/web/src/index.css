@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@source "../../../packages/ui/src";
+@import "@app/ui/theme.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-on-background);
+  background: var(--color-background);
+  -webkit-font-smoothing: antialiased;
+}
